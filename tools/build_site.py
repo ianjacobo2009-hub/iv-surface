@@ -66,6 +66,14 @@ def landing(cards: list[str]) -> str:
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Implied Volatility Surface</title>
 <meta name="description" content="Rotating 3D implied volatility surfaces from live option chains (Black-Scholes, Brent's method).">
+<meta property="og:title" content="Implied Volatility Surface">
+<meta property="og:description" content="Rotating 3D implied volatility surfaces for SPY, QQQ, AAPL, NVDA and TSLA, built from live option chains with Black-Scholes. Rebuilt every weekday.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://ianjacobo2009-hub.github.io/iv-surface/">
+<meta property="og:image" content="https://raw.githubusercontent.com/ianjacobo2009-hub/iv-surface/main/docs/spy_surface.jpg">
+<meta property="og:image:width" content="1440">
+<meta property="og:image:height" content="778">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
 <style>
