@@ -10,4 +10,4 @@ exe = EXE(pyz, a.scripts, [], exclude_binaries=True, name="IV Surface", console=
 coll = COLLECT(exe, a.binaries, a.datas, name="IV Surface")
 if sys.platform == "darwin":
     app = BUNDLE(coll, name="IV Surface.app", icon=icon, bundle_identifier="com.ianjacobo.ivsurface",
-                 info_plist={"CFBundleShortVersionString": "1.0.0", "NSHighResolutionCapable": True})
+                 info_plist={"CFBundleShortVersionString": "1.4.0", "NSHighResolutionCapable": True})
